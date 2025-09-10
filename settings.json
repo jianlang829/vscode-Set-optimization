@@ -1,0 +1,41 @@
+{
+  "editor.smoothScrolling": false,
+  "workbench.list.smoothScrolling": false,
+  "terminal.integrated.smoothScrolling": false,
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.cursorBlinking": "solid",
+
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.bracketPairs": false,
+  "editor.stickyScroll.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "workbench.editor.showTabs": "multiple",
+  "editor.mouseWheelZoom": true,
+
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/logs/**": true
+  },
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/*.log": true
+  },
+
+  "telemetry.telemetryLevel": "off",
+  "update.mode": "none",
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14
+}
